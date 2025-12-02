@@ -1,16 +1,11 @@
 # OWNER DECLARATION — Thread Context Governor (TCG)
 
-I, Tejas Bhone, am the original creator and sole rights holder of the following:
+I, **Tejas Bhone**, hereby declare that I am the sole creator and intellectual property owner of the architecture, terminology, structural design, and conceptual frameworks contained in this repository.
 
-• The Thread Context Governor (TCG)
-• Its core logic, multi-phase control architecture, and flow system
-• All stabilization methods, alignment logic, decision frameworks, and governor mechanisms
-• All sub-components, mini-engines, and derivative architectural concepts authored by me
+This repository exists as an official timestamped public record preserving authorship and ownership.  
+Any reuse, reproduction, distribution, commercial integration, or derivative creation requires **explicit written consent** from the author.
 
-This file serves as public declaration of ownership.  
-No organization, individual, or corporation may use, reproduce, adapt, or commercialize this system  
-without explicit written permission.
+For commercial licensing, enterprise usage, research partnerships, or extended rights inquiries, contact:  
+**tejasbhone95.com**
 
-Signed,  
-**Tejas Bhone (2025)**  
-Original Author & IP Holder
+— Tejas Bhone (2025)
