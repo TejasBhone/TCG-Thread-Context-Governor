@@ -1,10 +1,9 @@
-© 2025 Tejas Bhone. All Rights Reserved.
+Copyright © 2025 Tejas Bhone  
+All Rights Reserved.  
 
-This repository contains the original architectural design of the Thread Context Governor (TCG),
-a proprietary system for controlling LLM drift, enforcing goal-lock consistency, and enabling
-multi-stage alignment across long-form threads.
+This repository contains original intellectual property created by Tejas Bhone.  
+All architecture, terminology, structural patterns, diagrams, and conceptual frameworks described herein are protected under international copyright law.
 
-All functional ideas, architectural flows, mechanisms, and design primitives included herein
-are the intellectual property of the author.
+No portion of this work may be reproduced, redistributed, reverse-engineered, adapted, or integrated into any product, system, or commercial offering without explicit written permission from the author.
 
-Unauthorized reproduction, modification, integration, or derivative systems are prohibited.
+Unauthorized use—commercial, academic, or research-based—constitutes infringement and may result in legal action.
