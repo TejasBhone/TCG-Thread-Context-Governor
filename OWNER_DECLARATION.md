@@ -6,6 +6,6 @@ This repository exists as an official timestamped public record preserving autho
 Any reuse, reproduction, distribution, commercial integration, or derivative creation requires **explicit written consent** from the author.
 
 For commercial licensing, enterprise usage, research partnerships, or extended rights inquiries, contact:  
-**tejasbhone95.com**
+**tejasbhone95@gmail.com**
 
 — Tejas Bhone (2025)
