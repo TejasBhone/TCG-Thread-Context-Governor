@@ -20,8 +20,8 @@ It does not claim completeness, generality, or deployment readiness.
 The repository is organized around identified failure modes observed during exploration.
 
 At present:
-- Goal preservation is under active exploration
-- Other failure modes are intentionally left undeveloped
+- Failure modes are identified and are intentionally left undeveloped.
+- Each failure mode will be explored and will be added after controlled simulation and understanding.
 
 ## Intent
 The intent of TCG is not to control model behavior, but to make long-session instability observable and reasoned about explicitly before attempting mitigation.
