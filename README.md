@@ -1,72 +1,27 @@
-# Thread Context Governor (TCG)
-### Proprietary Architecture — All Rights Reserved  
-*A goal-locking, misalignment-resistant, drift-controlled governance layer for LLM threads.*
+# Thread Context Governor (TCG, internally)
 
----
+## Overview
+Thread Context Governor (TCG) is a conceptual exploration into how user intent degrades across extended, multi-turn interactions with large language models.
 
-## 🔒 Overview
-The **Thread Context Governor (TCG)** is a multi-stage alignment and consistency system designed to:
+This work originated from observing long conversational threads where the original goal gradually shifted, fragmented, or collapsed under accumulated noise, even when individual turns appeared locally correct.
 
-- lock a user-defined goal across long LLM interactions  
-- filter user inputs for drift or off-goal contamination  
-- maintain output alignment with the intended objective  
-- enforce structured reasoning and execution pathways  
-- reduce micro-drift over long conversational spans
+## Focus
+Rather than treating intent drift as a single-point failure, TCG approaches it as an accumulative process, where small deviations compound over time.
 
-This repository exists to establish **authorship, licensing, and IP protection**.
+The exploration centers on:
+- how conversational goals subtly mutate across turns
+- how tone, ambiguity, and local context override initial intent
+- why constraints must be explicitly re-established in long sessions
 
----
+## Scope and Status
+TCG is not a production system.
+It does not claim completeness, generality, or deployment readiness.
 
-## 🎯 What TCG Solves
-LLMs frequently:
+The repository is organized around identified failure modes observed during exploration.
 
-- forget the original goal  
-- subtly drift away from the target  
-- interpret user inputs inconsistently  
-- produce unstable long-form outputs  
+At present:
+- Goal preservation is under active exploration
+- Other failure modes are intentionally left undeveloped
 
-TCG provides a structured approach by:
-
-- goal-tokenization  
-- invariant blueprint anchoring  
-- real-time input validation  
-- output-path correction  
-- repeatable alignment cycles
-
----
-
-## 🏛 High-Level Architecture
-TCG consists of three major layers:
-
-### 1. **VisionLock Blueprint Layer**
-Produces a compact internal abstraction of the user’s goal.
-
-### 2. **Input Filter & Drift Gate**
-Validates each user message against the blueprint.
-
-### 3. **Execution Governor**
-Controls, shapes, and realigns the LLM’s output.
-
-Internal mechanisms are intentionally withheld for IP protection.
-
----
-
-## 📜 Licensing & Usage
-**All rights reserved.**  
-Commercial or derivative use is prohibited without explicit written approval.
-
-This is protected IP, not open-source software.
-
----
-
-## 📂 Contents
-- `LICENSE`
-- `COPYRIGHT.md`
-- `OWNER_DECLARATION.md`
-- `README.md`
-
----
-
-## 🧾 Author
-Designed and authored by **Tejas Bhone**  
-2025 — All Rights Reserved.
+## Intent
+The intent of TCG is not to control model behavior, but to make long-session instability observable and reasoned about explicitly before attempting mitigation.
